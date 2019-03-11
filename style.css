@@ -1,0 +1,88 @@
+body {
+    text-align: center
+}
+
+#banner {
+    width: 300px;
+    height: 250px;
+    background-color: gray;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#line {
+    margin-top: 150px;
+    opacity: 0
+}
+
+#sale {
+    position: absolute;
+    top: 100px;
+    left: -175px;
+    z-index: 2;
+}
+
+#savingforall {
+    position: absolute;
+    top: 175px;
+    right: -175px;
+    z-index: 3
+}
+
+#savebig {
+    position: absolute;
+    top: 185px;
+    left: 70px;
+    z-index: 4;
+    opacity: 0
+}
+
+#buttonborder {
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    z-index: 5;
+    opacity: 0
+}
+
+#shopnow {
+    position: absolute;
+    top: 227px;
+    left: 122px;
+    z-index: 6;
+    opacity: 0
+}
+
+#castle {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 7;
+    opacity: 0
+}
+
+#burnella {
+    position: absolute;
+    top: 0px;
+    right: -300px;
+    z-index: 8;
+    opacity: 0
+}
+
+#btnleft {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    z-index: 9;
+    opacity: 0
+}
+
+#btnright {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    z-index: 10;
+    opacity: 0
+}
